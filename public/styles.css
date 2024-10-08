@@ -1,0 +1,111 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 2rem;
+  border: 1px solid #ccc;
+  width: 70%;
+  max-width: 300px;
+  margin-right: 10px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  text-align: center;
+  color: aquamarine;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h1::before {
+  content: url('https://img.icons8.com/fluent/48/000000/partly-cloudy-day.png');
+  position: relative;
+  top: 10px;
+  left: -10px;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-info {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+a {
+  color: greenyellow; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
